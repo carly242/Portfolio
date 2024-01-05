@@ -161,3 +161,75 @@ p{
   color: #FFF;
 }
 
+
+
+.info {
+  background-color: #101010;
+  color: #ffffff;
+  padding: 75px 0 10px 0;
+}
+
+.info .row > div {
+  margin-bottom: 25px;
+}
+
+.info h2 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.info .info_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.info .info_logo .navbar-brand {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.info .info_logo .navbar-brand span {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.info .info_links ul {
+  padding: 0;
+}
+
+.info .info_links ul li {
+  list-style-type: none;
+}
+
+.info .info_links ul li a {
+  color: #ffffff;
+}
+
+.info .info_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info .info_contact a {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.info .info_contact a i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
